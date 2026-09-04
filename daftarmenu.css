@@ -1,0 +1,55 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+
+#menu-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.judul-utama {
+  text-align: center;
+  color: #333;
+}
+
+.kategori-menu {
+  margin-top: 20px;
+}
+
+.judul-kategori {
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 5px;
+  color: #e74c3c;
+}
+
+.daftar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ddd;
+}
+
+.nama-makanan {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.harga {
+  color: #27ae60;
+  font-weight: bold;
+}
